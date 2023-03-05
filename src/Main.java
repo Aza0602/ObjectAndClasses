@@ -7,6 +7,10 @@ public class Main {
         Book triMushketera = new Book("Три мушкетёра", 1844, duma);
         Book dolsheVekaDlitsyaDen = new Book("И дольше века длится день", 1980, aitmatov);
 
+        triMushketera.printInfo();
+        dolsheVekaDlitsyaDen.printInfo();
 
+        triMushketera.setDateOfPublisher(1845);
+        triMushketera.printInfo();
     }
 }
