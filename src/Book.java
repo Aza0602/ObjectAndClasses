@@ -26,4 +26,10 @@ public class Book {
     public void setDateOfPublisher(int dateOfPublisher) {
         this.dateOfPublisher = dateOfPublisher;
     }
+
+    public void printInfo() {
+        System.out.println("Название: " + nameOfBook + ", " + "год издания: " +
+                dateOfPublisher + ", " + "автор: " + author.getNameOfAuthor() +
+                " " + author.getLastNameOfAuthor());
+    }
 }
